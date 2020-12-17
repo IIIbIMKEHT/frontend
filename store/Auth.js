@@ -3,6 +3,7 @@ export const getters = {
     return rootState.auth.loggedIn;
   },
 
+
   user(state, getters, rootState) {
     return rootState.auth.user;
   }
